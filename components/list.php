@@ -1,11 +1,11 @@
-<div class="flex flex-col w-1/4 bg-blue-50 p-5 content-center justify-center">
+<div class="flex flex-rown bg-gray-200 p-2 content-center justify-center">
 
-<a href="/USERcreate/index.php">
-  Home
-</a>
-<a href="/USERcreate/adicionar.php">
-  Adicionar
-</a>
+    <a href="/USERcreate/Clientes/index.php" class="p-2 hover:scale-110 hover:font-bold ">
+        Home
+    </a>
+    <a href="/USERcreate/Clientes/adicionar.php" class="p-2  hover:scale-110 hover:font-bold">
+        Adicionar
+    </a>
 
 
 </div>
