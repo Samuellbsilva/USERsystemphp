@@ -6,6 +6,10 @@
     <a href="/USERcreate/Clientes/adicionar.php" class="p-2  hover:scale-110 hover:font-bold">
         Adicionar
     </a>
+    <a href="/USERcreate/produtos/index.php" class="p-2  hover:scale-110 hover:font-bold">
+        Produtos
+    </a>
+
 
 
 </div>
