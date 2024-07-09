@@ -1,4 +1,5 @@
 <?php
+$id = $_POST['id']; 
 $nome = $_POST['nome'];
 $categoria = $_POST['categoria'];
 $preco = $_POST['preco'];
@@ -7,7 +8,7 @@ $preco = $_POST['preco'];
 
 include "../components/bancodds/conection.php";
 
-$sql = "insert into produtos(nome, categoria, preco)
+$sql = "update into produtos(nome, categoria, preco)
     values ('$nome', '$categoria', '$preco')";
 
     $resultado = $connectionBD->query($sql);

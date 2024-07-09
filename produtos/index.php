@@ -46,8 +46,8 @@
                             <th scope="row"><?php echo $item->id; ?></th>
                             <td><?php echo $item->nome; ?></td>
                             <td><?php echo $item->categoria; ?></td>
-                            <td><?php echo $item->preço; ?></td>
-                            <td><a type="button" class="btn btn-outline-info"> Edit
+                            <td><?php echo $item->preco; ?></td>
+                            <td><a type="button" class="btn btn-outline-info" href="editar.php?id=<?php echo $item->id; ?>"> Edit
                                 </a>
                                 <a class="btn btn-outline-danger" href="delet.php?id=<?php echo $item->id; ?>">Delete</a>
                             </td>
@@ -61,6 +61,7 @@
             </div>
 
         </div>
+       
     </div>
     </div>
     </div>

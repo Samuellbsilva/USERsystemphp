@@ -52,13 +52,13 @@
                     <td class=" "> <?php echo $item->id; ?> </td>
                     <td class=" "> <?php echo $item->username; ?> </td>
                     <td class=" "> <?php echo $item->email; ?> </td>
-                    <td> <a href=""
+                    <td> <a href="edit.php?id=<?php echo $item->id; ?>"
                                 class="text-center btn btn-primary material-symbols-outlined">
                                 edit </a>
                             </a>
-                       <a href="del.php?id=<?php echo $item->id; ?>"
-                                class="text-center btn btn-primary material-symbols-outlined">
-                                Delete </a>
+                            <a href="#" onclick="confirmDelete(<?php echo $item->id; ?>);" 
+                            class="text-center btn btn-primary material-symbols-outlined">Delete</a>
+                             
                           
                              
                     </td>
@@ -87,7 +87,16 @@
 
     <?php include '../components/scripts.php'; ?>
 
+<script>
+function confirmDelete(id) {
 
+    if(confirm("Tem certeza?"+ id)) window.location = "del.php?id=" + id;
+     
+    
+
+
+}
+</script>
 
 </body>
 
