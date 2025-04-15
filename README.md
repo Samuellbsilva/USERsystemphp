@@ -1,70 +1,43 @@
-Aplicação CRUD de Usuários
+# Aplicação CRUD de Usuários
 
-Este projeto é uma aplicação simples em PHP com MySQL que permite gerenciar usuários através de operações CRUD. A aplicação permite criar, ler, editar e excluir usuários de um banco de dados.
-Funcionalidades
+Este projeto é uma aplicação simples em **PHP** com **MySQL** que permite gerenciar usuários através de operações **CRUD** (Criar, Ler, Atualizar e Excluir). A aplicação oferece funcionalidades para **cadastrar**, **listar**, **editar** e **excluir** usuários de um banco de dados. 
 
-    Cadastro de novos usuários.
-    Listagem de usuários registrados.
-    Edição das informações de usuários existentes.
-    Exclusão de usuários.
-    Validação básica de dados.
+---
 
-Tecnologias Utilizadas
+## 🎯 Funcionalidades
 
-    PHP: Linguagem de programação para a lógica do servidor.
-    MySQL: Sistema de gerenciamento de banco de dados utilizado para armazenar as informações dos usuários.
-    HTML/CSS: Para a construção da interface do usuário.
+- **Cadastro de novos usuários**: Permite o registro de novos usuários com informações básicas.
+- **Listagem de usuários**: Exibe uma lista de todos os usuários registrados no sistema.
+- **Edição de usuários**: Permite editar as informações de usuários já cadastrados.
+- **Exclusão de usuários**: Exclui usuários do banco de dados.
+- **Validação básica de dados**: Verificação de dados obrigatórios durante o cadastro e edição.
 
-Pré-requisitos
+---
 
-Antes de começar, verifique se você possui:
+## 🛠️ Tecnologias Utilizadas
 
-    Um servidor web (como Apache ou Nginx).
-    PHP instalado (versão 7.2 ou superior recomendada).
-    MySQL ou MariaDB instalado.
+- **PHP**: Linguagem de programação para a lógica de servidor e manipulação do banco de dados.
+- **MySQL**: Banco de dados para armazenamento das informações dos usuários.
+- **HTML/CSS**: Para a construção da interface do usuário (front-end).
 
-Instalação
+---
 
-    Clone o repositório:
+## 📋 Pré-requisitos
 
-    bash
+Antes de começar, verifique se você possui os seguintes itens instalados em sua máquina:
 
+- Um servidor web (como [Apache](https://httpd.apache.org/) ou [Nginx](https://www.nginx.com/)).
+- **PHP** (versão 7.2 ou superior).
+- **MySQL** ou **MariaDB** para o banco de dados.
+
+---
+
+## 🚀 Instalação
+
+### 1. Clone o repositório
+
+Clone o repositório para o seu computador com o seguinte comando:
+
+```bash
 git clone https://github.com/seu-usuario/crud-usuarios.git
 cd crud-usuarios
-
-Configure as credenciais do banco de dados no arquivo config.php.
-
-php
-
-<?php
-$host = 'localhost';
-$db = 'crud_usuarios';
-$user = 'seu_usuario';
-$pass = 'sua_senha';
-
-Acesse a aplicação pelo navegador:
-
-plaintext
-
-    http://localhost/crud-usuarios
-
-Como Usar
-
-    Cadastrar Usuário: Preencha o formulário de cadastro e clique em "Cadastrar".
-    Listar Usuários: A lista de usuários registrados será exibida na página inicial.
-    Editar Usuário: Clique no botão "Editar" ao lado do usuário que deseja modificar e faça as alterações necessárias.
-    Excluir Usuário: Clique no botão "Excluir" para remover um usuário da lista.
-
-  Melhorias Futuras
-
-    Implementar autenticação de usuário para garantir que apenas usuários autorizados possam acessar as funcionalidades.
-    Adicionar validação de entrada mais robusta.
-    Melhorar a interface do usuário com frameworks de CSS como Bootstrap ou Tailwind CSS.
-    Implementar pesquisa e filtragem de usuários.
-
-Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias, correções de bugs ou novas funcionalidades.
-Licença
-
-Este projeto é licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
